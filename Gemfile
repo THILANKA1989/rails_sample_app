@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-gem 'rails',                '4.2.0'
 gem 'bootstrap-sass',       '3.2.0.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.1'
@@ -20,6 +19,9 @@ gem 'jquery-rails',		'4.0.3'
 gem 'turbolinks',		'2.3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.2.3'
+gem 'faker',                '1.4.2'
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '0.4.0', group: :doc
 
